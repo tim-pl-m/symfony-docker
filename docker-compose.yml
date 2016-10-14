@@ -1,0 +1,6 @@
+www:
+  image: jakubsacha/symfony-docker:php5-dev
+  volumes:
+    - ".:/var/www/html"
+  ports:
+    - "80:80"
